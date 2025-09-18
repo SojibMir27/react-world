@@ -1,9 +1,14 @@
 import "./App.css";
+import Countries from "./compnents/Countrise/Countries";
+
+// const countrisePromise = fetch(
+//   "https://openapi.programming-hero.com/api/all"
+// ).then((res) => res.json());
 
 function App() {
   return (
     <>
-      <h1>React World On The Go....</h1>
+      <Countries></Countries>
     </>
   );
 }
